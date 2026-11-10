@@ -1,4 +1,4 @@
-# Trần Ngô Tiến Đạt - 25112231 - Thực hành 1 - Thí nghiệm 2 
+# Trần Ngô Tiến Đạt - 25112231 - Thực hành 2 - Thí nghiệm 2 
  Minh chứng: ảnh, videos, serial log và code ở trong các folders tương ứng của mỗi bài 
 > Wokwi:
 - bài 1 vd 1: https://wokwi.com/projects/480324937678396417
