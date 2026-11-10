@@ -1,3 +1,10 @@
+# Trần Ngô Tiến Đạt - 25112231 - Thực hành 1 - Thí nghiệm 2 
+ Minh chứng: ảnh, videos, serial log và code ở trong các folders tương ứng của mỗi bài 
+> Wokwi:
+> bài 1 vd 1: https://wokwi.com/projects/480324937678396417
+> bài 1 vd 2: https://wokwi.com/projects/480324761814331393
+> bài 2 vd 1: https://wokwi.com/projects/480333257105617921
+> bài 2 vd 2: https://wokwi.com/projects/480333437308691457
 # TH2 · Bài 1 — delay() vs millis() vs timer phần cứng
 
 LED1 → GPIO 2 · biến trở → GPIO 34. Đo khoảng thực tế giữa 2 lần nháy LED1 (đặt 500 ms) bằng `micros()`, 24 s CPU rảnh rồi 24 s CPU bận (+150 ms mỗi vòng `loop()`).
