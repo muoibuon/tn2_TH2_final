@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "/Users/muoi/.venv/lib/python3.14/site-packages/serial/serialposix.py", line 322, in open
+    self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+              ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/dev/cu.usbserial-110'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/private/tmp/claude-501/-Users-muoi/0fe81ce7-94b3-4600-9d1b-cc8f3063791a/scratchpad/mon.py", line 2, in <module>
+    s = serial.Serial('/dev/cu.usbserial-110', 115200, timeout=0.2)
+  File "/Users/muoi/.venv/lib/python3.14/site-packages/serial/serialutil.py", line 244, in __init__
+    self.open()
+    ~~~~~~~~~^^
+  File "/Users/muoi/.venv/lib/python3.14/site-packages/serial/serialposix.py", line 325, in open
+    raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+serial.serialutil.SerialException: [Errno 2] could not open port /dev/cu.usbserial-110: [Errno 2] No such file or directory: '/dev/cu.usbserial-110'
