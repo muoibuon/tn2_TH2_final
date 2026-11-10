@@ -8,6 +8,6 @@ LED1 → GPIO 2 · biến trở → GPIO 34. Đo khoảng thực tế giữa 2 l
 | `millis()` | 0,05 ms | 66 (100) ms | Trung bình đúng nhưng rung — chỉ kiểm tra giữa các vòng `loop()` |
 | Timer phần cứng | 0,00 ms | 0,00 (0,00) ms | Có — ngắt phần cứng đúng giờ, không phụ thuộc `loop()` |
 
-![So sánh](minh_chung/so_sanh_delay_millis_timer.png)
+<img width="1950" height="1500" alt="image" src="https://github.com/user-attachments/assets/3c7caa88-c70d-4c25-869f-84cd33e71085" />
 
 Code: `vd1_dung_delay/code` · `vd2_millis/code` · `vd3_timer/code`
